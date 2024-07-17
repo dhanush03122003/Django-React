@@ -1,0 +1,61 @@
+/* Update.css */
+
+.update-task-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-task-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40; /* Dark gray heading color */
+}
+
+.update-task-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.update-task-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #495057; /* Dark gray label color */
+}
+
+.update-task-container input[type="text"],
+.update-task-container textarea {
+    padding: 10px;
+    border: 1px solid #ced4da; /* Lighter gray border */
+    border-radius: 4px;
+    font-size: 16px;
+    max-width: 100%; /* Ensures the input field doesn't overflow */
+    width: 100%; /* Ensures the input field spans the full width of the container */
+}
+
+.update-task-container textarea {
+    min-height: 100px; /* Adjusted minimum height for textarea */
+    resize: vertical; /* Allows users to adjust the height */
+}
+
+.update-task-container button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #007bff; /* Primary blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    max-width: 200px; /* Limits the width of the button */
+    align-self: center; /* Centers the button */
+}
+
+.update-task-container button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}

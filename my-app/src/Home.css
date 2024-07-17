@@ -1,0 +1,36 @@
+/* Home.css */
+
+.home-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.home-container h1 {
+    margin-bottom: 20px;
+    color: #343a40; /* Dark gray heading color */
+}
+
+.home-container nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-container nav ul li {
+    margin-bottom: 10px;
+}
+
+.home-container nav ul li a {
+    color: #007bff; /* Primary blue link color */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-container nav ul li a:hover {
+    text-decoration: underline;
+}
